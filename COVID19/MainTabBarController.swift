@@ -14,15 +14,15 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let summaryController = SummaryViewController()
-        let summaryIcon = UITabBarItem(title: "Summary", image: UIImage(systemName: "house"), tag: 0)
-        summaryController.tabBarItem = summaryIcon
+        let overviewController = OverviewViewController()
+        let overviewIcon = UITabBarItem(title: "Overview", image: UIImage(systemName: "house"), tag: 0)
+        overviewController.tabBarItem = overviewIcon
         
         let countriesController = CountriesViewController()
         let countriesIcon = UITabBarItem(title: "Countries", image: UIImage(systemName: "globe"), tag: 1)
         countriesController.tabBarItem = countriesIcon
         
-        let tabBarList = [summaryController, countriesController]
+        let tabBarList = [overviewController, countriesController]
         viewControllers = tabBarList.map {
             UINavigationController(rootViewController: $0)
         }

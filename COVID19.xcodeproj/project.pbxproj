@@ -13,7 +13,7 @@
 		A37E4896243833A5000CBADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37E4895243833A5000CBADE /* Assets.xcassets */; };
 		A37E4899243833A5000CBADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37E4897243833A5000CBADE /* LaunchScreen.storyboard */; };
 		A37E48A124385ECC000CBADE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E48A024385ECC000CBADE /* MainTabBarController.swift */; };
-		A37E48A324386250000CBADE /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E48A224386250000CBADE /* SummaryViewController.swift */; };
+		A37E48A324386250000CBADE /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E48A224386250000CBADE /* OverviewViewController.swift */; };
 		A37E48A524386276000CBADE /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E48A424386276000CBADE /* CountriesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		A37E4898243833A5000CBADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A37E489A243833A5000CBADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A37E48A024385ECC000CBADE /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		A37E48A224386250000CBADE /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		A37E48A224386250000CBADE /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		A37E48A424386276000CBADE /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		B2EDBBFB17FDB0F1BFAC5BF1 /* Pods-COVID19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID19.debug.xcconfig"; path = "Target Support Files/Pods-COVID19/Pods-COVID19.debug.xcconfig"; sourceTree = "<group>"; };
 		BC027F6A9A69A9D58C588E12 /* Pods_COVID19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +88,7 @@
 				A37E4897243833A5000CBADE /* LaunchScreen.storyboard */,
 				A37E489A243833A5000CBADE /* Info.plist */,
 				A37E48A024385ECC000CBADE /* MainTabBarController.swift */,
-				A37E48A224386250000CBADE /* SummaryViewController.swift */,
+				A37E48A224386250000CBADE /* OverviewViewController.swift */,
 				A37E48A424386276000CBADE /* CountriesViewController.swift */,
 			);
 			path = COVID19;
@@ -212,7 +212,7 @@
 				A37E48A124385ECC000CBADE /* MainTabBarController.swift in Sources */,
 				A37E488F243833A4000CBADE /* SceneDelegate.swift in Sources */,
 				A37E48A524386276000CBADE /* CountriesViewController.swift in Sources */,
-				A37E48A324386250000CBADE /* SummaryViewController.swift in Sources */,
+				A37E48A324386250000CBADE /* OverviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

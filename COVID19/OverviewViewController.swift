@@ -8,13 +8,13 @@
 
 import UIKit
 
-class SummaryViewController: UIViewController {
+class OverviewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.navigationController?.navigationBar.topItem?.title = "COVID-19 Summary"
+        self.navigationController?.navigationBar.topItem?.title = "COVID-19 Overview"
     }
     
 
