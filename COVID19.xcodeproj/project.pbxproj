@@ -82,16 +82,40 @@
 		A37E488B243833A4000CBADE /* COVID19 */ = {
 			isa = PBXGroup;
 			children = (
+				A37E48A824387469000CBADE /* Views */,
+				A37E48A724387456000CBADE /* Models */,
+				A37E48A6243873C9000CBADE /* Controllers */,
 				A37E488C243833A4000CBADE /* AppDelegate.swift */,
 				A37E488E243833A4000CBADE /* SceneDelegate.swift */,
 				A37E4895243833A5000CBADE /* Assets.xcassets */,
 				A37E4897243833A5000CBADE /* LaunchScreen.storyboard */,
 				A37E489A243833A5000CBADE /* Info.plist */,
+			);
+			path = COVID19;
+			sourceTree = "<group>";
+		};
+		A37E48A6243873C9000CBADE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				A37E48A024385ECC000CBADE /* MainTabBarController.swift */,
 				A37E48A224386250000CBADE /* OverviewViewController.swift */,
 				A37E48A424386276000CBADE /* CountriesViewController.swift */,
 			);
-			path = COVID19;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A37E48A724387456000CBADE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A37E48A824387469000CBADE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

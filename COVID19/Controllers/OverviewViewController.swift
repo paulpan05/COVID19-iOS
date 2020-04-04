@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YogaKit
 
 class OverviewViewController: UIViewController {
 
@@ -15,6 +16,16 @@ class OverviewViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.navigationController?.navigationBar.topItem?.title = "COVID-19 Overview"
+        let covidImage = UIImage(named: "COVID-19")
+        let covidCover = UIImageView(image: covidImage)
+        covidCover.configureLayout{(layout) in
+            layout.isEnabled = true
+            layout.width = YGValue(self.view.bounds.size.width)
+            layout.height = YGValue(self.view.bounds.size.height / 2.5)
+        }
+        covidCover.yoga.applyLayout(preservingOrigin: true)
+        covidCover.contentMode = .scaleAspectFill
+        view.addSubview(covidCover)
     }
     
 
